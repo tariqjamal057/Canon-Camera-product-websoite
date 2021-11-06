@@ -1,5 +1,8 @@
 html {
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 * {
@@ -10,7 +13,6 @@ html {
 }
 
 header {
-  position: fixed;
   height: 12vh;
   width: 100%;
   background: #000;
