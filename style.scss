@@ -10,6 +10,8 @@
     $fontfamilysans: 'Open Sans', sans-serif;
 html {
     font-family: $fontfamilysans;
+    scroll-behavior: smooth;
+    transition: all 1s ease-in-out;
 }
 * {
     margin: 0;
